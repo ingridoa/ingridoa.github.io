@@ -68,6 +68,12 @@
             margin: 0;
             padding-left: 20px;
         }
+        .detail-item {
+            display: flex;
+            align-items:center;
+            gap: 0.5rem;
+            padding: 0.5rem;
+        }
     </style>
 </head>
 <body>
@@ -252,10 +258,25 @@
             <p>El valor por hora de capacitación: 25.000 pesos.</p>
         </div>
     </div>
-
-
-     <!--<h2>Detalles del Curso</h2> -->
-   
+    <h2>Detalles del Curso</h2>
+    <div class="section">
+             <div class="detail-item">
+              <lo><i>📝</i>
+              <span><strong>Código:</strong>Por definir</span></lo>
+              <lo><i>📅</i>
+              <span><strong>Inicio de Clases:</strong>2024</span></lo>
+              <lo><i>📅</i>
+               <span><strong>Inicio de Termino:</strong>2024</span></lo>
+              <lo><i>🎓</i>
+             <span><strong>Modalidad:</strong>Remota-Via zoom</span></lo>
+             <lo><i>⏰</i>
+              <span><strong>Horas:</strong>16</span></lo>
+              <lo><i>🕒</i>
+             <span><strong>Horario:</strong>Por definir</span></lo>
+             
+           </div>
+        </div>
+             
     <script>
      function calcularTotalHoras() {
         const duracionCeldas = document.querySelectorAll(".duration");
